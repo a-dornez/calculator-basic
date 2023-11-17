@@ -1,5 +1,23 @@
 /*
- * Program that calculates basic operations
+ * Program that calculates basic operations.
+ * Runs in console, asks for inputs, reads them and displays results.
+ * 
+ * I started with a question "How to make a calculator?". That lead to the following list, that fits any calculator:
+ * 		1. Receives number inputs;
+ *		2. Receives an input that defines an operation;
+ *		3. Does the operation;
+ *		4. Displays operation's result.
+ * 
+ * Then proceded to design one using diagrams and pseudocode.
+ *
+ * After realizing I've mostly solved programming logic problems and followed tutorials, I missed having a program that
+ * did not answer a given question or follow a given solution. So I thought for a while "What am I capable of doing now?",
+ * "What can I do to test myself?", "Which program would have room for improvements?", and then the present idea was born: 
+ * "A calculator!".
+ * 
+ * I wanted th project that can start quite simply, like a shop calculator and it can gradually increase in functionaly and 
+ * complexity as I learn more. Even though it's simple for now, I'm quite happy of being able to make a program!
+ *  @author a-dornez
  */
 
 import java.util.Locale;
@@ -18,6 +36,7 @@ public class Calculator {
 		System.out.print("Insert the second number: ");
 		 double numberY = scanner.nextDouble();
 		
+		//selects operation to perform 
 		double result = 0; 
 		if ( operation == '+') {
 				result = numberX + numberY;
