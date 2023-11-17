@@ -35,13 +35,25 @@ I started taking notes,to figure out what to do: _"How to a calculator?"_, _"Wha
 ### 🔷 🔴 The Diagram
 Then I proceded to make a basic diagram, as I want to practice documentation and design,to make my own ideias more clear and to be able to present them better:
 
-<!--Insert basic flowchart about calculators in general>
-
-![Generic calculator diagram](https://drive.google.com/file/d/1GS67ui1oPPWWo2HPWqcYsnDqsv_nHM6U/view?usp=drive_link)
+<!--Insert basic flowchart about calculators in general-->
 
 <!--Insert flowchart about current calculator-->
 
-![This calculator's diagram](https://drive.google.com/file/d/1xhq3yZrETqEvmSmHbaOF3-h9JckX3rWX/view?usp=drive_link)
+
+<div style="display: flex; align-items: center; justify-content: center;">
+  <div style="flex: 1; margin-right: 10px;">
+    <p align="center">
+      <img src="./Generic_calculator.drawio.png" alt="Generic calculator diagram" width="100" style="height: auto;">
+    </p>
+  </div>
+  <div style="flex: 1; margin-left: 10px;">
+    <p align="center">
+      <img src="./basic_calculator_flowchart.drawio.png" alt="Basic calculator diagram" width="650" style="height: auto;">
+    </p>
+  </div>
+</div>
+<!--images formatting and display as a courtesy of ChatGPT-->
+
 
 Then I wrote a pseudocode representing the program:
 
