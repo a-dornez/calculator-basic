@@ -40,18 +40,10 @@ Then I proceded to make a basic diagram, as I want to practice documentation and
 <!--Insert flowchart about current calculator-->
 
 
-<div style="display: flex; align-items: center; justify-content: center;">
-  <div style="flex: 1; margin-right: 10px;">
-    <p align="center">
-      <img src="./Generic_calculator.drawio.png" alt="Generic calculator diagram" width="100" style="height: auto;">
-    </p>
-  </div>
-  <div style="flex: 1; margin-left: 10px;">
-    <p align="center">
-      <img src="./basic_calculator_flowchart.drawio.png" alt="Basic calculator diagram" width="650" style="height: auto;">
-    </p>
-  </div>
-</div>
+<p align="center">
+  <img src="./basic_calculator_flowchart.drawio.png" alt="Basic calculator diagram" width="40%">
+</p>
+
 <!--images formatting and display as a courtesy of ChatGPT-->
 
 
