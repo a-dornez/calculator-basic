@@ -47,9 +47,11 @@ Then I proceded to make a basic diagram, as I want to practice documentation and
 <!--images formatting and display as a courtesy of ChatGPT-->
 
 
-Then I wrote a pseudocode representing the program:
 
 ### 📝 (Pseudo)Coding time
+
+Then I wrote a pseudocode representing the program:
+
 ```
 Program"Caculator"
 

@@ -29,32 +29,39 @@ public class Calculator {
 		
 		Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
 		
-		System.out.print("Insert the first number: ");
-		 double numberX = scanner.nextDouble();
-		System.out.print("Choose a valid operation ( + , - , * , / ) : ");
-		 char operation = scanner.next().charAt(0);
-		System.out.print("Insert the second number: ");
-		 double numberY = scanner.nextDouble();
+		String performAnotherCalculation;
+		do {
+			System.out.print("Insert the first number: ");
+			 double numberX = scanner.nextDouble();
+			System.out.print("Choose a valid operation ( + , - , * , / ) : ");
+			 char operation = scanner.next().charAt(0);
+			System.out.print("Insert the second number: ");
+			 double numberY = scanner.nextDouble();
 		
-		//selects operation to perform 
-		double result = 0; 
-		if ( operation == '+') {
-				result = numberX + numberY;
-		}
-		else if ( operation == '-' ) {
-				result = numberX - numberY;
-		}
-		else if ( operation == '*' ) {
-				result = numberX * numberY;
-		}
-		else if ( operation == '/') {
-				result = numberX / numberY;
-		}
-		else {
-				System.out.println("\nYou must insert a valid operation ( + , - , * , / )");
-		}
-		
-		System.out.println("\n" + numberX + " " + operation + " " + numberY + " = " + result + "\n");
+			//selects operation to perform 
+			double result = 0; 
+			if ( operation == '+') {
+					result = numberX + numberY;
+			}
+			else if ( operation == '-' ) {
+					result = numberX - numberY;
+			}
+			else if ( operation == '*' ) {
+					result = numberX * numberY;
+			}
+			else if ( operation == '/') {
+					result = numberX / numberY;
+			}
+			else {
+					System.out.println("\nYou must insert a valid operation ( + , - , * , / )");
+			}
+			
+			System.out.println("\n" + numberX + " " + operation + " " + numberY + " = " + result + "\n");
+			
+			System.out.print("Perform another cacluclation? (Y/N): ");
+			 scanner.nextLine();
+			 performAnotherCalculation = scanner.nextLine();
+		} while ( performAnotherCalculation.equalsIgnoreCase("y") );
 		
 		scanner.close();
 	}
